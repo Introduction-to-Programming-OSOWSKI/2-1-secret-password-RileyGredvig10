@@ -1,7 +1,8 @@
-password = "Knights19"
+def password(p):
 
-if password == "Knights19":
-    print("ACCESS GRANTED")
-
-if password != "Knights19":
-    print("ACCESS DENIED")
+    if p == "Knights19":
+        return"ACCESS GRANTED"
+    else:
+        return"ACCESS DENIED"
+    
+print(password("Knights19"))
